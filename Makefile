@@ -1,4 +1,4 @@
-all:	btree.cpp main.cpp
-	g++ -g main.cpp btree.cpp -o btree
+all:	hello.cpp
+	g++ hello.cpp -o hello
 clean:
-	rm -f btree
+	rm -f hello
